@@ -1,0 +1,115 @@
+/* Banner Style */
+.banner {
+    background-image:url('Images/River View From Town.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center center
+}
+
+.bannertext{
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bannertext h1{
+    text-shadow: 1px 1px 1px #0e57c4, 2px 2px 1px #0e57c4;
+}
+
+/*Navbar Style */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    float: left;
+    background-color: #333;
+    text-align: center;
+}
+
+.navbar a{
+    display: block;
+    color: #ffffff;
+    text-align: centre;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover:not(.active){
+    background-color: #111;
+}
+
+.active{
+    background-color: #04AA6D;
+}
+
+/* Header Style */
+header{
+    padding: 0px;
+    font-family: Verdana;
+    margin:0;
+}
+
+/* Body Style */
+body{
+    background-color: #00008B;
+    color: #ffffff;
+    font-family: Verdana;
+    margin:0;
+}
+
+/* Footer Style */
+footer{
+    background-color: #333;
+    color: #ffffff;
+    font-family: Verdana;
+    padding: 10px;
+    text-align: center;
+}
+
+/* History Page Styles */
+.History{
+    margin: 10px;
+}
+
+/* Visit Page Styles */
+.Visit{
+    margin: 10px;
+}
+
+/* Visit Page Styles */
+.Index{
+    margin: 10px;
+}
+
+/* Grid Styles */
+.IndexPage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .IndexPage > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    color: #111;
+  }
+
+  /*
+  .Fact1 {
+    grid-row-start: 1;
+    grid-row-end: 7;
+  }
+
+  .Fact2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+  }
+  */
