@@ -3,7 +3,7 @@
     background-image:url('Images/River View From Town.jpg');
     background-size:cover;
     background-repeat: no-repeat;
-    background-position:center center
+    background-position:center center;
 }
 
 .bannertext{
@@ -56,7 +56,7 @@ header{
 /* Body Style */
 body{
     background-color: #00008B;
-    color: #ffffff;
+    color: #111;
     font-family: Verdana;
     margin:0;
 }
@@ -71,21 +71,155 @@ footer{
 }
 
 /* History Page Styles */
-.History{
+.HistoryPage{
+    display: grid;
+    grid-template-columns: auto auto;
     margin: 10px;
+    padding: 10px;
+    background-color: #2196F3;
 }
+
+.HistoryPage > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+  }
+
+  .HistoryFacts {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .HistoryImage1 {
+    background-image:url('Images/Cathedral Side View.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .HistoryImage2 {
+    background-image:url('Images/Cathedral Side View.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .HistoryImage3 {
+    background-image:url('Images/Cathedral Full View.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .HistoryImage4 {
+    background-image:url('Images/High Street Portrait.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .HistoryImage5 {
+    background-image:url('Images/Cathedral Side View.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .HistoryImage6 {
+    background-image:url('Images/Cathedral Side View.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .HistoryImage7 {
+    background-image:url('Images/Cathedral Side View.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .HistoryImage8 {
+    background-image:url('Images/Golden Postbox.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
 
 /* Visit Page Styles */
-.Visit{
+.VisitPage{
+    display: grid;
+    grid-template-columns: auto auto;
     margin: 10px;
+    padding: 10px;
+    background-color: #2196F3;
 }
 
-/* Visit Page Styles */
-.Index{
-    margin: 10px;
-}
+.VisitPage > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
 
-/* Grid Styles */
+  .VisitFacts {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 7;
+  }
+  
+  .VisitImage1 {
+    background-image:url('Images/Cathedral Close Up Portrait.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    height: 400px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .VisitImage2 {
+    background-image:url('Images/Golden Postbox.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    height: 400px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+
+  .VisitImage3 {
+    background-image:url('Images/Cathedral Side View.JPG');
+    background-size:cover;
+    background-position:center center;
+    width: 300px;
+    height: 400px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+
+/* Home Page Styles */
 .IndexPage {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -99,17 +233,44 @@ footer{
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px;
-    color: #111;
   }
 
-  /*
-  .Fact1 {
-    grid-row-start: 1;
-    grid-row-end: 7;
+  .IndexFact1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
   }
 
-  .Fact2 {
-    grid-column-start: 2;
+  .IndexFact2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .IndexFact3 {
+    grid-column-start: 3;
     grid-column-end: 5;
   }
-  */
+
+  .IndexFact4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .IndexImage1 {
+    background-image:url('Images/Cathedral Side View.JPG');
+    background-size:cover;
+    background-position:center center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .IndexImage3 {
+    background-image:url('Images/River Front View.JPG');
+    background-size:cover;
+    background-position:center center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
