@@ -255,6 +255,13 @@ footer{
     grid-column-end: 5;
   }
 
+  .IndexFact5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 6;
+  }
+
   .IndexImage1 {
     background-image:url('Images/Cathedral Side View.JPG');
     background-size:cover;
@@ -273,4 +280,13 @@ footer{
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 5;
+  }
+
+  .IndexImage4 {
+    background-image:url('Images/Dunblane Map.png');
+    background-size:cover;
+    background-position:center center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 550px;
   }
