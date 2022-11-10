@@ -4,10 +4,11 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center center;
+    height: 200px;
 }
 
 .bannertext{
-    padding: 10px;
+    padding: 25px;
     text-align: center;
     color: #ffffff;
 }
@@ -72,8 +73,6 @@ footer{
 
 /* History Page Styles */
 .HistoryPage{
-    display: grid;
-    grid-template-columns: auto auto;
     margin: 10px;
     padding: 10px;
     background-color: #2196F3;
@@ -85,90 +84,16 @@ footer{
     padding: 20px;
   }
 
-  .HistoryFacts {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
-
-  .HistoryImage1 {
-    background-image:url('Images/Cathedral Side View.JPG');
-    background-size:cover;
+  .HistoryImages{
     background-position:center center;
-    width: 300px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
-
-  .HistoryImage2 {
-    background-image:url('Images/Cathedral Side View.JPG');
-    background-size:cover;
-    background-position:center center;
-    width: 300px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
-
-  .HistoryImage3 {
-    background-image:url('Images/Cathedral Full View.JPG');
-    background-size:cover;
-    background-position:center center;
-    width: 300px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
-
-  .HistoryImage4 {
-    background-image:url('Images/High Street Portrait.JPG');
-    background-size:cover;
-    background-position:center center;
-    width: 300px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
-
-  .HistoryImage5 {
-    background-image:url('Images/Cathedral Side View.JPG');
-    background-size:cover;
-    background-position:center center;
-    width: 300px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
-
-  .HistoryImage6 {
-    background-image:url('Images/Cathedral Side View.JPG');
-    background-size:cover;
-    background-position:center center;
-    width: 300px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
-
-  .HistoryImage7 {
-    background-image:url('Images/Cathedral Side View.JPG');
-    background-size:cover;
-    background-position:center center;
-    width: 300px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
-
-  .HistoryImage8 {
-    background-image:url('Images/Golden Postbox.JPG');
-    background-size:cover;
-    background-position:center center;
-    width: 300px;
-    grid-column-start: 3;
-    grid-column-end: 5;
+    margin: 10px;
   }
 
 /* Visit Page Styles */
 .VisitPage{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin: 10px;
-    padding: 10px;
-    background-color: #2196F3;
+  margin: 10px;
+  padding: 10px;
+  background-color: #2196F3;
 }
 
 .VisitPage > div {
@@ -176,47 +101,8 @@ footer{
     padding: 20px;
   }
 
-  .VisitFacts {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 7;
-  }
-  
-  .VisitImage1 {
-    background-image:url('Images/Cathedral Close Up Portrait.JPG');
-    background-size:cover;
-    background-position:center center;
-    width: 300px;
-    height: 400px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
-
-  .VisitImage2 {
-    background-image:url('Images/Golden Postbox.JPG');
-    background-size:cover;
-    background-position:center center;
-    width: 300px;
-    height: 400px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 5;
-  }
-
-  .VisitImage3 {
-    background-image:url('Images/Cathedral Side View.JPG');
-    background-size:cover;
-    background-position:center center;
-    width: 300px;
-    height: 400px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 5;
-    grid-row-end: 7;
+  .VisitButtons{
+    margin: 10px;
   }
 
 /* Home Page Styles */
@@ -272,7 +158,7 @@ footer{
     grid-row-end: 3;
   }
 
-  .IndexImage3 {
+  .IndexImage2 {
     background-image:url('Images/River Front View.JPG');
     background-size:cover;
     background-position:center center;
@@ -282,7 +168,7 @@ footer{
     grid-row-end: 5;
   }
 
-  .IndexImage4 {
+  .IndexImage3 {
     background-image:url('Images/Dunblane Map.png');
     background-size:cover;
     background-position:center center;
@@ -290,3 +176,11 @@ footer{
     grid-column-end: 5;
     height: 550px;
   }
+
+.col-7{
+  background-color: aquamarine;
+}
+
+.col-5{
+  background-color:coral;
+}
