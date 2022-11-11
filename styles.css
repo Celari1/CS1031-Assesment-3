@@ -1,158 +1,163 @@
 /* Banner Style */
 .banner {
-    background-image:url('Images/River View From Town.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position:center center;
-    height: 200px;
+  background-image:url('Images/River-View-From-Town.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+  height: 200px;
 }
 
 .bannertext{
-    padding: 25px;
-    text-align: center;
-    color: #ffffff;
+  padding: 25px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .bannertext h1{
-    text-shadow: 1px 1px 1px #5D96B8, 2px 2px 1px #5D96B8;
+  text-shadow: 1px 1px 1px #5D96B8, 2px 2px 1px #5D96B8;
 }
 
 /*Navbar Style */
 .navbar li {
-    display: inline;
-    float: left;
-    background-color: #49A3DA;
-    text-align: center;
+  display: inline;
+  float: left;
+  background-color: #49A3DA;
+  text-align: center;
 }
 
 .navbar a{
-    display: block;
-    color: #ffffff;
-    text-align: centre;
-    padding: 15px 15px;
-    text-decoration: none;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
 }
 
 .navbar a:hover:not(.active){
-    background-color: #5D96B8;
+  background-color: #5D96B8;
 }
 
 .active{
-    background-color: #49DAA4;
+  background-color: #49DAA4;
 }
 
 /* Header Style */
 header{
-    padding: 0px;
-    font-family: Verdana;
-    margin:0;
+  padding: 0px;
+  font-family: Verdana;
+  margin:0;
 }
 
 /* Body Style */
 body{
-    background-color: #F6F5EF;
-    color: #111;
-    font-family: Verdana;
-    margin:0;
+  background-color: #F6F5EF;
+  color: #111;
+  font-family: Verdana;
+  margin:0;
 }
 
 /* Footer Style */
 footer{
-    background-color: #333;
-    color: #ffffff;
-    font-family: Verdana;
-    padding: 10px;
-    text-align: center;
+  background-color: #333;
+  color: #ffffff;
+  font-family: Verdana;
+  padding: 10px;
+  text-align: center;
 }
 
 /* Home Page Styles */
 .IndexPage {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    background-color: #C8F4EB;
-    padding: 10px;
-    margin: 10px;
-  }
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #C8F4EB;
+  padding: 10px;
+  margin: 10px;
+}
   
-  .IndexPage > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px;
-  }
+.IndexPage > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+}
 
-  .IndexFact1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
+.IndexFact1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
 
-  .IndexFact2 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
+.IndexFact2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
 
-  .IndexFact3 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
+.IndexFact3 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
 
-  .IndexFact4 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
+.IndexFact4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
 
-  .IndexFact5 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 6;
-  }
+.IndexFact5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
 
-  .IndexImage1 {
-    background-image:url('Images/Cathedral Side View.JPG');
-    background-size:cover;
-    background-position:center center;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
+.IndexImage1 {
+  background-image:url('Images/Cathedral-Side-View.JPG');
+  background-size:cover;
+  background-position:center center;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
 
-  .IndexImage2 {
-    background-image:url('Images/River Front View.JPG');
-    background-size:cover;
-    background-position:center center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 5;
-  }
+.IndexImage2 {
+  background-image:url('Images/River-Front-View.JPG');
+  background-size:cover;
+  background-position:center center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
 
-  .IndexImage3 {
-    background-image:url('Images/Dunblane Map.png');
-    background-size:cover;
-    background-position:center center;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    height: 550px;
-  }
+.IndexImage3 {
+  background-image:url('Images/Dunblane-Map.png');
+  background-size:cover;
+  background-position:center center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  height: 550px;
+}
 
 /* History Page Styles */
 .HistoryPage{
-    margin: 10px;
-    padding: 10px;
-    background-color: #C8F4EB;
+  margin: 10px;
+  padding: 10px;
+  background-color: #C8F4EB;
 }
 
 .HistoryPage > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px;
-  }
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+}
 
-  .HistoryImages{
-    background-position:center center;
-    margin: 10px;
+.HistoryImages{
+  background-position:center center;
+  margin: 10px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    margin: auto;
   }
 
 /* Visit Page Styles */
@@ -163,13 +168,17 @@ footer{
 }
 
 .VisitPage > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-  }
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
 
-  .VisitButtons{
-    margin: 10px;
-  }
+.VisitButtons{
+  margin: 10px;
+}
+
+.button {
+  border: 2px solid #6D6969;
+}
 
 .row{
   padding: 10px;
@@ -179,8 +188,3 @@ footer{
   background-color: #D9DBE7;
   padding: 10px;
 }
-
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    margin: auto;
-  }
