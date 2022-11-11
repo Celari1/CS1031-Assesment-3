@@ -14,20 +14,14 @@
 }
 
 .bannertext h1{
-    text-shadow: 1px 1px 1px #0e57c4, 2px 2px 1px #0e57c4;
+    text-shadow: 1px 1px 1px #5D96B8, 2px 2px 1px #5D96B8;
 }
 
 /*Navbar Style */
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 .navbar li {
     display: inline;
     float: left;
-    background-color: #333;
+    background-color: #49A3DA;
     text-align: center;
 }
 
@@ -40,11 +34,11 @@
 }
 
 .navbar a:hover:not(.active){
-    background-color: #111;
+    background-color: #5D96B8;
 }
 
 .active{
-    background-color: #04AA6D;
+    background-color: #49DAA4;
 }
 
 /* Header Style */
@@ -56,7 +50,7 @@ header{
 
 /* Body Style */
 body{
-    background-color: #00008B;
+    background-color: #F6F5EF;
     color: #111;
     font-family: Verdana;
     margin:0;
@@ -71,46 +65,12 @@ footer{
     text-align: center;
 }
 
-/* History Page Styles */
-.HistoryPage{
-    margin: 10px;
-    padding: 10px;
-    background-color: #2196F3;
-}
-
-.HistoryPage > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px;
-  }
-
-  .HistoryImages{
-    background-position:center center;
-    margin: 10px;
-  }
-
-/* Visit Page Styles */
-.VisitPage{
-  margin: 10px;
-  padding: 10px;
-  background-color: #2196F3;
-}
-
-.VisitPage > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-  }
-
-  .VisitButtons{
-    margin: 10px;
-  }
-
 /* Home Page Styles */
 .IndexPage {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    background-color: #2196F3;
+    background-color: #C8F4EB;
     padding: 10px;
     margin: 10px;
   }
@@ -177,10 +137,50 @@ footer{
     height: 550px;
   }
 
-.col-7{
-  background-color: aquamarine;
+/* History Page Styles */
+.HistoryPage{
+    margin: 10px;
+    padding: 10px;
+    background-color: #C8F4EB;
+}
+
+.HistoryPage > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+  }
+
+  .HistoryImages{
+    background-position:center center;
+    margin: 10px;
+  }
+
+/* Visit Page Styles */
+.VisitPage{
+  margin: 10px;
+  padding: 10px;
+  background-color: #C8F4EB;
+}
+
+.VisitPage > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
+
+  .VisitButtons{
+    margin: 10px;
+  }
+
+.row{
+  padding: 10px;
 }
 
 .col-5{
-  background-color:coral;
+  background-color: #D9DBE7;
+  padding: 10px;
 }
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    margin: auto;
+  }
