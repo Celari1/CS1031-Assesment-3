@@ -18,14 +18,14 @@
 }
 
 /*Navbar Style */
-.navbar li {
+.Navigation li {
   display: inline;
   float: left;
   background-color: #49A3DA;
   text-align: center;
 }
 
-.navbar a{
+.Navigation a{
   display: block;
   color: #ffffff;
   text-align: center;
@@ -33,7 +33,7 @@
   text-decoration: none;
 }
 
-.navbar a:hover:not(.active){
+.Navigation a:hover:not(.active){
   background-color: #5D96B8;
 }
 
@@ -150,11 +150,6 @@ footer{
   padding: 20px;
 }
 
-.HistoryImages{
-  background-position:center center;
-  margin: 10px;
-}
-
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
     margin: auto;
@@ -173,7 +168,7 @@ footer{
 }
 
 .VisitButtons{
-  margin: 10px;
+  margin: 8px;
 }
 
 .button {

@@ -6,13 +6,12 @@
         <title>Visit Page</title>
 
         <!-- Style Sheet Links -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles.css">
 
         <!-- Script Links -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        
     </head>
 
     <!-- Page Body -->
@@ -31,16 +30,25 @@
             </div>
     
             <!-- Page Navbar -->
-            <nav class="navbar navbar-light" style="background-color: #F6F5EF;">
-                <div>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a class="active" href="visit.html">Visit</a></li>
-                        <li><a href="history.html">History</a></li>
-                    </ul>
+            <nav class="navbar navbar-expand" style="background-color: #F6F5EF;">
+
+                <div class="container-fluid Navigation">
+                  <!-- Links -->
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link"  href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="visit.html">Visit</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="history.html">History</a>
+                    </li>
+                  </ul>
                 </div>
+              
             </nav>
-            
+
         </header>
 
         <!-- Main Text Area -->
@@ -56,8 +64,8 @@
                         <h2><u>Local Attractions</u></h2>
                         <br>
 
-                        <div class="card panel-collapse collapse" id="Attraction1" style="width:600px">
-                            <img class="card-img-top img-responsive" src="Images/Cathedral-Full-View.JPG" alt="Dunblane Cathedral Full View">
+                        <div class="collapse" id="Attraction1">
+                            <img class="card-img-top img-fluid" src="Images/Cathedral-Full-View.JPG" alt="Dunblane Cathedral Full View">
                             <div class="card-body">
                                 <h4>Dunblane Cathedral</h4>
                                 <ul>
@@ -66,8 +74,8 @@
                             </div>
                         </div>
 
-                        <div class="card panel-collapse collapse" id="Attraction2" style="width:600px">
-                            <img class="card-img-top img-responsive" src="Images/Dunblane-Museum-And-Leighton-Library.JPG" alt="Dunblane Museum">
+                        <div class="collapse" id="Attraction2">
+                            <img class="card-img-top img-fluid" src="Images/Dunblane-Museum-And-Leighton-Library.JPG" alt="Dunblane Museum">
                             <div class="card-body">
                                 <h4>Dunblane Museum</h4>
                                 <ul>
@@ -76,8 +84,8 @@
                             </div>
                         </div>
 
-                        <div class="card panel-collapse collapse" id="Attraction3" style="width:600px">
-                            <img class="card-img-top img-responsive" src="Images/Golden-Postbox.JPG" alt="Golden Postbox">
+                        <div class="collapse" id="Attraction3">
+                            <img class="card-img-top img-fluid" src="Images/Golden-Postbox.JPG" alt="Golden Postbox">
                             <div class="card-body">
                                 <h4>Golden Postbox</h4>
                                 <ul>
@@ -86,8 +94,8 @@
                             </div>
                         </div>
 
-                        <div class="card panel-collapse collapse" id="Attraction4" style="width:600px">
-                            <img class="card-img-top img-responsive" src="Images/Dunblane-Museum-And-Leighton-Library.JPG" alt="Leighton Library">
+                        <div class="collapse" id="Attraction4">
+                            <img class="card-img-top img-fluid" src="Images/Dunblane-Museum-And-Leighton-Library.JPG" alt="Leighton Library">
                             <div class="card-body">
                                 <h4>Leighton Library</h4>
                                 <ul>
@@ -96,8 +104,8 @@
                             </div>
                         </div>
 
-                        <div class="card panel-collapse collapse" id="Attraction5" style="width:600px">
-                            <img class="card-img-top img-responsive" src="Images/Battle-of-Sheriffmuir.jpg" alt="Sherriffmuir">
+                        <div class="collapse" id="Attraction5">
+                            <img class="card-img-top img-fluid" src="Images/Battle-of-Sheriffmuir.jpg" alt="Sherriffmuir">
                             <div class="card-body">
                                 <h4>Sheriffmuir</h4>
                                 <ul>
@@ -106,8 +114,8 @@
                             </div>
                         </div>
 
-                        <div class="card panel-collapse collapse" id="Attraction6" style="width:600px">
-                            <img class="card-img-top img-responsive" src="Images/River-Side-View.JPG" alt="Allan Water River">
+                        <div class="collapse" id="Attraction6">
+                            <img class="card-img-top img-fluid" src="Images/River-Side-View.JPG" alt="Allan Water River">
                             <div class="card-body">
                                 <h4>Allan Water</h4>
                                 <ul>
@@ -116,8 +124,8 @@
                             </div>
                         </div>
                         
-                        <div class="card panel-collapse collapse" id="Attraction7" style="width:600px">
-                            <img class="card-img-top img-responsive" src="Images/David-Stirling-Monument.jpg" alt="David Stirling Monument">
+                        <div class="collapse" id="Attraction7">
+                            <img class="card-img-top img-fluid" src="Images/David-Stirling-Monument.jpg" alt="David Stirling Monument">
                             <div class="card-body">
                                 <h4>David Stirling Monument</h4>
                                 <ul>
@@ -130,30 +138,45 @@
                     <!-- Collapse Buttons -->
                     <div class="col-5">
                         <div class="VisitButtons">
-                            <button data-toggle="collapse" data-target="#Attraction1" style="border-radius: 8px;" class="btn btn-outline-secondary button">Dunblane Cathedral</button>
+                            <button id="Attraction1-Button" data-bs-toggle="collapse" data-bs-target="#Attraction1" type="button" style="border-radius: 8px;" class="btn btn-outline-secondary button">Dunblane Cathedral</button>
                         </div>
                         <div class="VisitButtons">
-                            <button data-toggle="collapse" data-target="#Attraction2" style="border-radius: 8px;" class="btn btn-outline-secondary button">Dunblane Museum</button>
+                            <button id="Attraction2-Button" data-bs-toggle="collapse" data-bs-target="#Attraction2"  type="button" style="border-radius: 8px;" class="btn btn-outline-secondary button">Dunblane Museum</button>
                         </div>
                         <div class="VisitButtons">
-                            <button data-toggle="collapse" data-target="#Attraction3" style="border-radius: 8px;" class="btn btn-outline-secondary button">Golden Postbox</button>
+                            <button id="Attraction3-Button" data-bs-toggle="collapse" data-bs-target="#Attraction3" type="button" style="border-radius: 8px;" class="btn btn-outline-secondary button">Golden Postbox</button>
                         </div>
                         <div class="VisitButtons">
-                            <button data-toggle="collapse" data-target="#Attraction4" style="border-radius: 8px;" class="btn btn-outline-secondary button">Leighton Library</button>
+                            <button id="Attraction4-Button" data-bs-toggle="collapse" data-bs-target="#Attraction4" type="button" style="border-radius: 8px;" class="btn btn-outline-secondary button">Leighton Library</button>
                         </div>
                         <div class="VisitButtons">
-                            <button data-toggle="collapse" data-target="#Attraction5" style="border-radius: 8px;" class="btn btn-outline-secondary button">Sheriffmuir</button>
+                            <button id="Attraction5-Button" data-bs-toggle="collapse" data-bs-target="#Attraction5" type="button" style="border-radius: 8px;" class="btn btn-outline-secondary button">Sheriffmuir</button>
                         </div>
                         <div class="VisitButtons">
-                            <button data-toggle="collapse" data-target="#Attraction6" style="border-radius: 8px;" class="btn btn-outline-secondary button">Allan Water and The Haugh</button>
+                            <button id="Attraction6-Button" data-bs-toggle="collapse" data-bs-target="#Attraction6" type="button" style="border-radius: 8px;" class="btn btn-outline-secondary button">Allan Water</button>
                         </div>
                         <div class="VisitButtons">
-                            <button data-toggle="collapse" data-target="#Attraction7" style="border-radius: 8px;" class="btn btn-outline-secondary button">David Stirling Monument</button>
+                            <button id="Attraction7-Button" data-bs-toggle="collapse" data-bs-target="#Attraction7" type="button" style="border-radius: 8px;" class="btn btn-outline-secondary button">David Stirling Monument</button>
                         </div>
                     </div>
 
-                </div>
+                    <!-- JavaScript -->
+                    <script>
+                        for (let i = 1; i <= 7; i++) {
+                            let button = document.getElementById(`Attraction${i}-Button`);
+    
+                            button.addEventListener('click', () => {
+                                for (let n = 1; n <= 7; n++) {
+                                    if (n != i && document.getElementById(`Attraction${n}`).clientHeight > 0) {
+                                        document.getElementById(`Attraction${n}-Button`).click();
+                                    };
+                                };
+                            });
+                        };
+                    </script>
 
+                </div>
+        
             </div>
 
         </div>
